@@ -8,35 +8,36 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #000000, #1a1a1a);
+      background: radial-gradient(circle, #111 0%, #000 70%);
       color: #d4af37;
     }
     .card {
       max-width: 420px;
       margin: 40px auto;
       background: #000;
-      border-radius: 16px;
-      padding: 24px;
-      box-shadow: 0 0 30px rgba(212,175,55,0.25);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 0 35px rgba(212,175,55,0.35);
       text-align: center;
     }
-    img.logo {
-      width: 110px;
-      margin-bottom: 20px;
-    }
     h1 {
-      margin: 10px 0 5px;
-      font-size: 24px;
+      margin: 0;
+      font-size: 26px;
+      font-weight: bold;
     }
     h2 {
-      margin: 0 0 20px;
+      margin: 6px 0 22px;
       font-size: 16px;
       font-weight: normal;
       color: #f1d27a;
+      line-height: 1.4;
     }
     .item {
       margin: 10px 0;
       font-size: 15px;
+    }
+    .item span {
+      margin-right: 8px;
     }
     a {
       color: #d4af37;
@@ -44,29 +45,30 @@
     }
     .btn {
       display: block;
-      margin-top: 25px;
-      padding: 12px;
-      background: #d4af37;
+      margin-top: 26px;
+      padding: 14px;
+      background: linear-gradient(135deg, #d4af37, #b8962e);
       color: #000;
-      border-radius: 10px;
+      border-radius: 12px;
       font-weight: bold;
+      font-size: 16px;
     }
   </style>
 </head>
 <body>
 
 <div class="card">
-  <img src="logo.png" class="logo" alt="Logo">
-
   <h1>Ravshan Sidikov</h1>
-  <h2>Директор<br>Медно-обогатительная фабрика</h2>
+  <h2>
+    Директор<br>
+    Медно-обогатительная фабрика
+  </h2>
 
   <div class="item">📱 <a href="tel:+998931822677">+998 (93) 182-26-77</a></div>
   <div class="item">☎️ <a href="tel:+998781412929">+998 (78) 141-29-29</a></div>
   <div class="item">✉️ <a href="mailto:r.sidikov@agmk.uz">r.sidikov@agmk.uz</a></div>
   <div class="item">📍 г. Алмалык, ул. Амира Темура, 53</div>
 
-  <!-- vCard yuklab olish -->
   <a class="btn" href="Ravshan_Sidikov.vcf" download>
     ➕ Добавить в контакты
   </a>
