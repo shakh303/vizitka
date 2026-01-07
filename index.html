@@ -1,63 +1,76 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Vizitka</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            margin: 0;
-            padding: 0;
-        }
-        .card {
-            max-width: 380px;
-            margin: 40px auto;
-            background: #ffffff;
-            border-radius: 12px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-        }
-        .name {
-            font-size: 22px;
-            font-weight: bold;
-        }
-        .role {
-            color: #555;
-            margin-bottom: 15px;
-        }
-        .info {
-            text-align: left;
-            margin-top: 15px;
-        }
-        .info div {
-            margin: 8px 0;
-        }
-        .label {
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Ravshan Sidikov</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: #d4af37;
+    }
+    .card {
+      max-width: 420px;
+      margin: 40px auto;
+      background: #000;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 0 30px rgba(212,175,55,0.25);
+      text-align: center;
+    }
+    img.logo {
+      width: 110px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+    h2 {
+      margin: 0 0 20px;
+      font-size: 16px;
+      font-weight: normal;
+      color: #f1d27a;
+    }
+    .item {
+      margin: 10px 0;
+      font-size: 15px;
+    }
+    a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+    .btn {
+      display: block;
+      margin-top: 25px;
+      padding: 12px;
+      background: #d4af37;
+      color: #000;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 
 <div class="card">
-    <div class="name">Сидиков Равшан Мирзабекович</div>
-    <div class="role">ДИРЕКТОР</div>
-    <div class="role">медно-обагатительной фабрики </div>
+  <img src="logo.png" class="logo" alt="Logo">
 
-    <div class="info">
-        <div><span class="label">📞 Телефон:</span> +998 93 182 26 77</div>
-        <div><span class="label">📧 e-mail:</span> r.sidikov@agmk.uz</div>
-        <div><span class="label">🏢 Подразделение</span> МОФ</div>
-        <div><span class="label">🌐 Адресс:</span> Республика Узбекистан. Алмалык,110100, Амира Темура</div>
-    </div>
+  <h1>Ravshan Sidikov</h1>
+  <h2>Директор<br>Медно-обогатительная фабрика</h2>
+
+  <div class="item">📱 <a href="tel:+998931822677">+998 (93) 182-26-77</a></div>
+  <div class="item">☎️ <a href="tel:+998781412929">+998 (78) 141-29-29</a></div>
+  <div class="item">✉️ <a href="mailto:r.sidikov@agmk.uz">r.sidikov@agmk.uz</a></div>
+  <div class="item">📍 г. Алмалык, ул. Амира Темура, 53</div>
+
+  <!-- vCard yuklab olish -->
+  <a class="btn" href="Ravshan_Sidikov.vcf" download>
+    ➕ Добавить в контакты
+  </a>
 </div>
 
 </body>
 </html>
-
-
-
-
